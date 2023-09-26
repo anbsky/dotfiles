@@ -1,0 +1,31 @@
+live_config_reload = true
+import = [ "~/.config/alacritty/rose-pine.toml" ]
+
+[font]
+size = 13
+
+  [font.normal]
+  family = "MesloLGS NF"
+
+[window]
+opacity = 0.96
+
+  [window.padding]
+  x = 0
+  y = 0
+
+  [window.dimensions]
+  columns = 160
+  lines = 100
+
+  [window.position]
+  x = 0
+  y = 0
+
+[scrolling]
+history = 100_000
+multiplier = 0
+
+[env]
+TERM = "alacritty"
+
